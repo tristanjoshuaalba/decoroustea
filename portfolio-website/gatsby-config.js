@@ -5,29 +5,30 @@ module.exports = {
     siteUrl: `http://www.decoroustea.xyz`,
     description: `A sandbox portfolio website for learning web development maintained by Tristan Alba`,
     hero: {
-      heading: `Hi, I'm, Tristan.`,
+      heading: `Hi, I'm Tristan. Welcome to my sandbox portfolio website.
+      Feel free to check out my current projects and learnings.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/tristanjalba`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/tristanjoshuaalba`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://www.instagram.com/tristan.j.alba`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/tristanjoshuaalba/`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        // url: `https://dribbble.com/narativestudio`,
       },
     ],
   },
@@ -48,8 +49,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Decorous Tea`,
+        short_name: `Decorous Tea`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
