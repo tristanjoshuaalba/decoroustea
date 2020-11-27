@@ -1,0 +1,12 @@
+name: Tristan Alba
+bio: |
+  In constant pursuit of progress. Data geek by day, web developer + writer
+  by night. I write about anything code, growth, and business.
+avatar: ./avatars/tristan-alba.png
+social:
+  - url: https://twitter.com/tristanjalba
+  - url: https://stackoverflow.com/users/14619560/tristan-joshua-alba
+  - url: https://www.linkedin.com/in/tristanjoshuaalba/
+  - url: https://medium.com/@tristan.j.alba
+  # - url: https://github.com
+featured: true

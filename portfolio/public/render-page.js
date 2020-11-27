@@ -130,7 +130,7 @@ var plugins = [{
     "plugins": [],
     "query": "\n          {\n            site {\n              siteMetadata {\n                title\n                description\n                siteUrl\n                site_url: siteUrl\n              }\n            }\n          }\n        ",
     "feeds": [{
-      "query": "\n              {\n                allArticle(sort: {order: DESC, fields: date}) {\n                  edges {\n                    node {\n                      body\n                      excerpt\n                      date\n                      slug\n                      title\n                      author\n                      secret\n                    }\n                  }\n                }\n              }\n              ",
+      "query": "\n              {\n                allArticle(sort: {order: DESC, fields: date}) {\n                  edges {\n                    node {\n                      body\n                      excerpt\n                      date\n                      slug\n                      title\n                      author\n                      secret\n                    }\n                  }\n                }\n                allContentfulArticle(sort: {order: DESC, fields: date}) {\n                  edges {\n                    node {\n                      excerpt\n                      date\n                      slug\n                      title\n                      body {\n                        childMarkdownRemark {\n                          html\n                        }\n                      }\n                      author {\n                        name\n                      }\n                      secret\n                    }\n                  }\n                }\n              }\n              ",
       "output": "/rss.xml"
     }]
   }
@@ -189,19 +189,19 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "Novela by Narative",
-    "short_name": "Novela",
+    "name": "Decorous Tea",
+    "short_name": "decoroustea",
     "start_url": "/",
     "background_color": "#fff",
     "theme_color": "#fff",
     "display": "standalone",
-    "icon": "src/assets/favicon.png",
+    "icon": "src/assets/decoroustea-icon.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "d70d18944716424b395eef7f4519449e"
+    "cacheDigest": null
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
