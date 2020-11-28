@@ -6,6 +6,7 @@ hero: ./images/hero.jpg
 excerpt: I'm Tristan, a self-proclaimed data geek and aspiring web developer.
 ---
 
+It's 2:47PM and I'm changing this file to make a new commit. 
 My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
 
 ## Headers
