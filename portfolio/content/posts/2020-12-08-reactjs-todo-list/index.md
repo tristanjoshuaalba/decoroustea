@@ -3,7 +3,7 @@ title: ToDo List App using ReactJS
 author: Tristan Alba
 date: 2020-12-08
 hero: ./images/screenshot-todo-list.png
-excerpt: A simple productivity timer created using React
+excerpt: Creating a basic ToDo List Web App using Components and States
 ---
 ## Overview
 
